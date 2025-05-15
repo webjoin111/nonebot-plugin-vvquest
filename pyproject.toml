@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nonebot-plugin-vvquest"
+version = "0.1.0"
+description = "通过API获取维维语录图片的NoneBot2插件"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "webjoin111", email = "455457521@qq.com"}
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "nonebot2>=2.0.0",
+    "nonebot-adapter-onebot>=2.0.0",
+    "httpx>=0.20.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/webjoin111/nonebot-plugin-vvquest"
+Repository = "https://github.com/webjoin111/nonebot-plugin-vvquest"
+Issues = "https://github.com/webjoin111/nonebot-plugin-vvquest/issues"
+
+[tool.setuptools]
+packages = ["nonebot_plugin_vvquest"]
