@@ -91,6 +91,13 @@ VVQUEST_COOLDOWN=30
 - 默认返回5条结果，最大返回数量受配置限制
 - 请求有冷却时间，防止频繁请求
 - 本地API失败时会自动回退到在线API
+- 插件内置API请求失败重试机制，提高稳定性
+
+## API 来源
+
+本插件使用的 API 基于 [MemeMeow](https://github.com/MemeMeow-Studio/MemeMeow) 项目，在此对该项目的开发者表示衷心的感谢！
+
+如果网络连接有问题，建议开启代理工具，并将 `api.zvv.quest` 加入规则列表，以确保 API 请求能够正常进行。
 
 ## 开源协议
 
